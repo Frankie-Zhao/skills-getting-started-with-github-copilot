@@ -15,13 +15,14 @@ A super simple FastAPI application that allows students to view and sign up for 
    pip install fastapi uvicorn
    ```
 
-2. Run the application:
+2. From the repository root, run the application:
 
    ```
-   python app.py
+   python -m uvicorn src.app:app --reload
    ```
 
 3. Open your browser and go to:
+   - Application: http://localhost:8000
    - API documentation: http://localhost:8000/docs
    - Alternative documentation: http://localhost:8000/redoc
 
